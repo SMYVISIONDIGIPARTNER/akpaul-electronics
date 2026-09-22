@@ -206,7 +206,7 @@ function Home() {
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
             telephone: "18001234042",
-            email: "info@customerserviceonline.co.in",
+            email: "babupaul2121@gmail.com",
             image: "https://customerserviceonline.co.in/images/hero-appliance-repair.jpg",
             description:
               "AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair and service in Kolkata.",
@@ -789,102 +789,143 @@ function Home() {
 
 
         /* =====================================================
-           INTRO
+           SERVICE ENQUIRY FORM
         ===================================================== */
 
-        .home-intro {
-          position: relative;
-          z-index: 10;
-
+        .home-enquiry {
+          padding: 90px 0;
           background: #ffffff;
-
-          box-shadow:
-            0 15px 45px rgba(3, 46, 79, 0.08);
         }
 
-        .home-intro-inner {
-          min-height: 115px;
-
-          display: grid;
-          grid-template-columns:
-            minmax(0, 1fr) auto;
-
-          align-items: center;
-
-          gap: 40px;
+        .home-enquiry-wrapper {
+          width: min(90%, 1050px);
+          margin: 0 auto;
+          padding: clamp(30px, 5vw, 55px);
+          background: #f5f7f9;
+          border-top: 4px solid #d7192d;
+          box-shadow: 0 18px 55px rgba(3, 46, 79, 0.09);
         }
 
-        .home-intro-text {
-          min-width: 0;
+        .home-enquiry-heading {
+          max-width: 700px;
+          margin: 0 auto 35px;
+          text-align: center;
         }
 
-        .home-intro-text h2 {
-          margin: 0 0 7px;
-
-          color: #032e4f;
-
-          font-size: 23px;
-        }
-
-        .home-intro-text p {
-          max-width: 750px;
-
-          margin: 0;
-
-          color: #687781;
-
-          font-size: 14px;
-
-          line-height: 1.7;
-        }
-
-        .home-intro-phone {
-          min-width: 0;
-
-          padding-left: 35px;
-
-          display: flex;
-          align-items: center;
-
-          gap: 13px;
-
-          border-left: 1px solid #e3e8eb;
-
-          color: #032e4f;
-
-          text-decoration: none;
-
-          font-size: clamp(18px, 2vw, 24px);
+        .home-enquiry-heading small {
+          display: block;
+          margin-bottom: 10px;
+          color: #d7192d;
+          font-size: 11px;
           font-weight: 800;
-
-          white-space: nowrap;
+          letter-spacing: 2.5px;
+          text-transform: uppercase;
         }
 
-        .home-phone-circle {
-          width: 50px;
-          height: 50px;
+        .home-enquiry-heading h2 {
+          margin: 0;
+          color: #032e4f;
+          font-size: clamp(30px, 4vw, 42px);
+          line-height: 1.2;
+        }
 
-          flex-shrink: 0;
+        .home-enquiry-heading p {
+          margin: 14px auto 0;
+          color: #72818b;
+          font-size: 14px;
+          line-height: 1.75;
+        }
 
+        .home-enquiry-form {
+          width: 100%;
+        }
+
+        .home-enquiry-row {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 18px;
+        }
+
+        .home-enquiry-group {
+          min-width: 0;
+          margin-bottom: 18px;
+        }
+
+        .home-enquiry-group label {
+          display: block;
+          margin-bottom: 8px;
+          color: #032e4f;
+          font-size: 12px;
+          font-weight: 800;
+        }
+
+        .home-enquiry-required {
+          color: #d7192d;
+        }
+
+        .home-enquiry-group input,
+        .home-enquiry-group select,
+        .home-enquiry-group textarea {
+          width: 100%;
+          border: 1px solid #dce3e8;
+          border-radius: 4px;
+          outline: none;
+          background: #ffffff;
+          color: #172936;
+          font-family: inherit;
+          font-size: 14px;
+          transition: border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .home-enquiry-group input,
+        .home-enquiry-group select {
+          height: 56px;
+          padding: 0 16px;
+        }
+
+        .home-enquiry-group textarea {
+          min-height: 145px;
+          padding: 16px;
+          resize: vertical;
+        }
+
+        .home-enquiry-group input:focus,
+        .home-enquiry-group select:focus,
+        .home-enquiry-group textarea:focus {
+          border-color: #d7192d;
+          box-shadow: 0 0 0 3px rgba(215, 25, 45, 0.08);
+        }
+
+        .home-enquiry-submit {
+          width: 100%;
+          min-height: 58px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
           display: flex;
           align-items: center;
           justify-content: center;
-
-          border-radius: 50%;
-
+          gap: 10px;
           background: #d7192d;
           color: #ffffff;
-
-          animation: homePulse 2s infinite;
+          font-family: inherit;
+          font-size: 14px;
+          font-weight: 800;
+          box-shadow: 0 12px 30px rgba(215, 25, 45, 0.2);
+          transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .home-phone-circle svg {
-          width: 21px;
-          height: 21px;
+        .home-enquiry-submit:hover {
+          transform: translateY(-3px);
+          background: #b91426;
+          box-shadow: 0 17px 35px rgba(215, 25, 45, 0.27);
+        }
 
+        .home-enquiry-submit svg {
+          width: 18px;
+          height: 18px;
           fill: currentColor;
         }
-
 
         /* =====================================================
            ABOUT / WELCOME
@@ -2004,6 +2045,32 @@ function Home() {
             height: 45px;
           }
 
+          /* SERVICE ENQUIRY */
+
+          .home-enquiry {
+            padding: 60px 0;
+          }
+
+          .home-enquiry-wrapper {
+            width: 90%;
+            padding: 30px 20px;
+          }
+
+          .home-enquiry-row {
+            grid-template-columns: 1fr;
+            gap: 0;
+          }
+
+          .home-enquiry-group input,
+          .home-enquiry-group select {
+            height: 54px;
+          }
+
+          .home-enquiry-submit {
+            min-height: 56px;
+            padding: 14px 18px;
+          }
+
           /* ABOUT */
 
           .home-about,
@@ -2248,11 +2315,11 @@ function Home() {
             </p>
 
             <h1 className="home-hero-title">
-              Expert Appliance
-              <span>
-                Repair & Service.
-              </span>
-            </h1>
+  Reliable Home Appliance
+  <span>
+    Repair in Kolkata.
+  </span>
+</h1>
 
             <p className="home-hero-text">
               AC Repair | Washing Machine Repair |
@@ -2279,10 +2346,10 @@ function Home() {
 
 
               <Link
-                to="/services"
+                to="/contact"
                 className="home-button home-button-outline"
               >
-                Explore Our Services
+                Contact Us
                 <span>→</span>
               </Link>
 
@@ -2343,47 +2410,175 @@ function Home() {
 
 
         {/* =================================================
-            INTRO
+            SERVICE ENQUIRY
         ================================================= */}
 
-        <section className="home-intro">
+        <section className="home-enquiry">
 
-          <div className="home-container home-intro-inner">
+          <div className="home-enquiry-wrapper home-reveal">
 
-            <div className="home-intro-text">
+            <div className="home-enquiry-heading">
+
+              <small>
+                Service Enquiry
+              </small>
 
               <h2>
-                AK Paul Electronics!
+                Request a Service
               </h2>
 
               <p>
-                AK Paul Electronics offers quality repair and
-                services at affordable prices for household
-                appliances. Contact us today for free
-                inspection.
+                Fill in your details and tell us which appliance needs
+                repair. Your enquiry will be sent directly to our service
+                team.
               </p>
 
             </div>
 
-
-            <a
-              href="tel:18001234042"
-              className="home-intro-phone"
+            <form
+              className="home-enquiry-form"
+              action="https://formsubmit.co/babupaul2121@gmail.com"
+              method="POST"
             >
 
-              <span className="home-phone-circle">
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Enquiry from customerserviceonline.co.in"
+              />
 
-                <svg viewBox="0 0 24 24">
-                  <path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
+              <input
+                type="hidden"
+                name="_template"
+                value="table"
+              />
+
+              <input
+                type="hidden"
+                name="_captcha"
+                value="false"
+              />
+
+              <input
+                type="hidden"
+                name="_next"
+                value="https://customerserviceonline.co.in/thank-you"
+              />
+
+              <input
+                type="hidden"
+                name="_autoresponse"
+                value="Thank you for contacting AK Paul Electronics. We have received your service enquiry and our team will contact you soon."
+              />
+
+              <div className="home-enquiry-row">
+
+                <div className="home-enquiry-group">
+                  <label htmlFor="home-name">
+                    Your Name <span className="home-enquiry-required">*</span>
+                  </label>
+
+                  <input
+                    id="home-name"
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div className="home-enquiry-group">
+                  <label htmlFor="home-phone">
+                    Phone Number <span className="home-enquiry-required">*</span>
+                  </label>
+
+                  <input
+                    id="home-phone"
+                    type="tel"
+                    name="phone"
+                    placeholder="Enter phone number"
+                    pattern="[0-9+ ]{10,15}"
+                    required
+                  />
+                </div>
+
+              </div>
+
+              <div className="home-enquiry-group">
+                <label htmlFor="home-email">
+                  Email Address
+                </label>
+
+                <input
+                  id="home-email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                />
+              </div>
+
+              <div className="home-enquiry-group">
+                <label htmlFor="home-service">
+                  Select Service <span className="home-enquiry-required">*</span>
+                </label>
+
+                <select
+                  id="home-service"
+                  name="service"
+                  defaultValue=""
+                  required
+                >
+                  <option value="" disabled>
+                    Select appliance/service
+                  </option>
+
+                  <option value="AC Repair and Service">
+                    AC Repair & Service
+                  </option>
+
+                  <option value="Refrigerator Repair and Service">
+                    Refrigerator Repair & Service
+                  </option>
+
+                  <option value="Washing Machine Repair and Service">
+                    Washing Machine Repair & Service
+                  </option>
+
+                  <option value="Microwave Repair and Service">
+                    Microwave Repair & Service
+                  </option>
+
+                  <option value="Other Appliance Service">
+                    Other
+                  </option>
+                </select>
+              </div>
+
+              <div className="home-enquiry-group">
+                <label htmlFor="home-message">
+                  Describe the Problem <span className="home-enquiry-required">*</span>
+                </label>
+
+                <textarea
+                  id="home-message"
+                  name="message"
+                  placeholder="Example: My AC is running but not cooling properly..."
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="home-enquiry-submit"
+              >
+                Send Service Enquiry
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2 .01 7Z" />
                 </svg>
+              </button>
 
-              </span>
-
-              <span>
-                1800 1234 042
-              </span>
-
-            </a>
+            </form>
 
           </div>
 
@@ -2434,13 +2629,9 @@ function Home() {
             <div className="home-about-content home-reveal home-delay-1">
 
               <p className="home-section-tag">
-                Welcome To
+                About Us
               </p>
 
-              <h2 className="home-section-title">
-                AK Paul
-                <span> Electronics!</span>
-              </h2>
 
 
               <p className="home-section-description">
