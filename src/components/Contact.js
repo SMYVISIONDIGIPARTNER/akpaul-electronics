@@ -1514,7 +1514,7 @@ function Contact() {
                 <input
                   type="hidden"
                   name="_subject"
-                  value="New AK Paul Electronics Service Enquiry"
+                  value="New Enquiry from customerserviceonline.co.in"
                 />
 
                 <input
@@ -1532,7 +1532,7 @@ function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://customerserviceonline.co.in/contact?submitted=true"
+                  value="https://customerserviceonline.co.in/contact"
                 />
 
                 <input
