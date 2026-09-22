@@ -1,8 +1,55 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 function Home() {
+  const navigate = useNavigate();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleServiceEnquiry = async (event) => {
+    event.preventDefault();
+
+    if (isSubmitting) return;
+
+    setIsSubmitting(true);
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(
+        "https://formsubmit.co/ajax/babupaul2121@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+          },
+          body: formData,
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      const result = await response.json();
+
+      if (result.success) {
+        form.reset();
+        navigate("/thank-you");
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch (error) {
+      console.error("Service enquiry error:", error);
+      alert(
+        "Unable to submit your enquiry right now. Please try again or call 1800 1234 042."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   /* =========================================================
      LOCAL IMAGE -> UNSPLASH FALLBACK
   ========================================================= */
@@ -919,6 +966,13 @@ function Home() {
           transform: translateY(-3px);
           background: #b91426;
           box-shadow: 0 17px 35px rgba(215, 25, 45, 0.27);
+        }
+
+        .home-enquiry-submit:disabled {
+          cursor: not-allowed;
+          opacity: 0.75;
+          transform: none;
+          box-shadow: none;
         }
 
         .home-enquiry-submit svg {
@@ -2437,8 +2491,7 @@ function Home() {
 
             <form
               className="home-enquiry-form"
-              action="https://formsubmit.co/babupaul2121@gmail.com"
-              method="POST"
+              onSubmit={handleServiceEnquiry}
             >
 
               <input
@@ -2458,14 +2511,7 @@ function Home() {
                 name="_captcha"
                 value="false"
               />
-
-              <input
-                type="hidden"
-                name="_next"
-                value="https://customerserviceonline.co.in/thank-you"
-              />
-
-              <input
+<input
                 type="hidden"
                 name="_autoresponse"
                 value="Thank you for contacting AK Paul Electronics. We have received your service enquiry and our team will contact you soon."
@@ -2570,12 +2616,15 @@ function Home() {
               <button
                 type="submit"
                 className="home-enquiry-submit"
+                disabled={isSubmitting}
               >
-                Send Service Enquiry
+                {isSubmitting ? "Sending Enquiry..." : "Send Service Enquiry"}
 
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2 .01 7Z" />
-                </svg>
+                {!isSubmitting && (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2 .01 7Z" />
+                  </svg>
+                )}
               </button>
 
             </form>
