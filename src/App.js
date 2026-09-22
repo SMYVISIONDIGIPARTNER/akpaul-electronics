@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import ThankYou from "./components/ThankYou";
 
 import "./App.css";
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       {/* =========================================
-          FLOATING CALL BUTTON CSS
+          GLOBAL / FLOATING CALL BUTTON CSS
       ========================================== */}
 
       <style>{`
@@ -132,7 +133,7 @@ function App() {
         }
 
         /* =========================================
-           PULSE
+           PULSE EFFECT
         ========================================== */
 
         .floating-call-pulse {
@@ -171,7 +172,7 @@ function App() {
         }
 
         /* =========================================
-           PHONE SHAKE
+           PHONE SHAKE ANIMATION
         ========================================== */
 
         @keyframes floatingPhoneShake {
@@ -232,7 +233,7 @@ function App() {
             height: 21px;
           }
 
-          /* Only icon on mobile */
+          /* Hide phone number on mobile */
           .floating-call-text {
             display: none;
           }
@@ -266,6 +267,9 @@ function App() {
           }
 
           .floating-call-pulse {
+            left: 6px;
+            top: 6px;
+
             width: 41px;
             height: 41px;
           }
@@ -283,8 +287,15 @@ function App() {
         }
       `}</style>
 
-      {/* Scroll to top whenever route changes */}
+      {/* =========================================
+          SCROLL TO TOP ON ROUTE CHANGE
+      ========================================== */}
+
       <ScrollToTop />
+
+      {/* =========================================
+          NAVBAR
+      ========================================== */}
 
       <Navbar />
 
@@ -293,7 +304,10 @@ function App() {
       ========================================== */}
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={<Home />}
+        />
 
         <Route
           path="/about"
@@ -309,7 +323,17 @@ function App() {
           path="/contact"
           element={<Contact />}
         />
+
+        {/* THANK YOU PAGE */}
+        <Route
+          path="/thank-you"
+          element={<ThankYou />}
+        />
       </Routes>
+
+      {/* =========================================
+          FOOTER
+      ========================================== */}
 
       <Footer />
 

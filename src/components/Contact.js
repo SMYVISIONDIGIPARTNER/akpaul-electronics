@@ -1532,7 +1532,7 @@ function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://customerserviceonline.co.in/contact"
+                  value="https://customerserviceonline.co.in/thank-you"
                 />
 
                 <input
