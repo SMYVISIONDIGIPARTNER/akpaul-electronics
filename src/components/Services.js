@@ -172,7 +172,7 @@ function Services() {
     <>
       <Helmet>
         <title>Appliance Repair Services in Kolkata | AK Paul Electronics</title>
-        <meta name="description" content="AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email babupaul2121@gmail.com." />
+        <meta name="description" content="AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email info@customerserviceonline.co.in" />
         <meta name="keywords" content="AC repair Kolkata, refrigerator repair Kolkata, fridge repair Kolkata, washing machine repair Kolkata, microwave repair Kolkata, appliance repair Kolkata, AK Paul Electronics" />
         <link rel="canonical" href="https://customerserviceonline.co.in/services" />
 
@@ -196,7 +196,7 @@ function Services() {
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
             telephone: "18001234240",
-            email: "babupaul2121@gmail.com",
+            email: "info@customerserviceonline.co.in",
             areaServed: { "@type": "City", name: "Kolkata" },
             address: {
               "@type": "PostalAddress",
@@ -1569,7 +1569,7 @@ function Services() {
                 for essential household appliances. Our experienced
                 technicians inspect the appliance, identify the
                 problem and provide an estimated repair cost before
-                proceeding with the required work. For enquiries, email us at babupaul2121@gmail.com.
+                proceeding with the required work. For enquiries, email us at info@customerserviceonline.co.in.
               </p>
 
             </div>

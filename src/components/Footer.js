@@ -605,7 +605,7 @@ function Footer() {
                   <span>Email</span>
 
                   <a href="mailto:babupaul2121@gmail.com">
-                    babupaul2121@gmail.com
+                    info@customerserviceonline.co.in
                   </a>
 
                 </div>

@@ -253,7 +253,7 @@ function Home() {
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
             telephone: "18001234240",
-            email: "babupaul2121@gmail.com",
+            email: "info@customerserviceonline.co.in",
             image: "https://customerserviceonline.co.in/images/hero-appliance-repair.jpg",
             description:
               "AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair and service in Kolkata.",
@@ -2369,9 +2369,9 @@ function Home() {
             </p>
 
             <h1 className="home-hero-title">
-  Reliable Home Appliance
+  Make A Service
   <span>
-    Repair in Kolkata.
+    Request.
   </span>
 </h1>
 

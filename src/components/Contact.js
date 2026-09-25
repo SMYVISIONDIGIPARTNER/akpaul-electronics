@@ -65,7 +65,7 @@ function Contact() {
         </title>
         <meta
           name="description"
-          content="Contact AK Paul Electronics for AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email babupaul2121@gmail.com."
+          content="Contact AK Paul Electronics for AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email info@customerserviceonline.co.in."
         />
         <meta
           name="keywords"
@@ -120,7 +120,7 @@ function Contact() {
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
             telephone: "18001234240",
-            email: "babupaul2121@gmail.com",
+            email: "info@customerserviceonline.co.in",
             description:
               "AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata.",
             areaServed: {
@@ -1409,7 +1409,7 @@ function Contact() {
                     </small>
 
                     <span>
-                      babupaul2121@gmail.com
+                     info@customerserviceonline.co.in
                     </span>
 
                   </div>
@@ -1476,12 +1476,6 @@ function Contact() {
 
             </div>
 
-            {/* =================================================
-                FORM
-
-                THIS FORM SENDS TO:
-                babupaul2121@gmail.com
-            ================================================= */}
 
             <div className="contact-form-wrapper contact-reveal contact-delay-1">
 
