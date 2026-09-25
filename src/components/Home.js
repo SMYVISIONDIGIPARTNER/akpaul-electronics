@@ -43,7 +43,7 @@ function Home() {
     } catch (error) {
       console.error("Service enquiry error:", error);
       alert(
-        "Unable to submit your enquiry right now. Please try again or call 1800 1234 042."
+        "Unable to submit your enquiry right now. Please try again or call 1800 1234 240."
       );
     } finally {
       setIsSubmitting(false);
@@ -207,7 +207,7 @@ function Home() {
         <title>AC, Refrigerator & Washing Machine Repair in Kolkata | AK Paul Electronics</title>
         <meta
           name="description"
-          content="AK Paul Electronics provides AC repair, refrigerator repair, washing machine repair and microwave repair services in Kolkata. Call toll free 1800 1234 042 for appliance service and inspection."
+          content="AK Paul Electronics provides AC repair, refrigerator repair, washing machine repair and microwave repair services in Kolkata. Call toll free 1800 1234 240 for appliance service and inspection."
         />
         <meta
           name="keywords"
@@ -226,7 +226,7 @@ function Home() {
         <meta property="og:title" content="Appliance Repair Services in Kolkata | AK Paul Electronics" />
         <meta
           property="og:description"
-          content="Professional AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 042."
+          content="Professional AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 240."
         />
         <meta property="og:url" content="https://customerserviceonline.co.in/" />
         <meta
@@ -239,7 +239,7 @@ function Home() {
         <meta name="twitter:title" content="Appliance Repair Services in Kolkata | AK Paul Electronics" />
         <meta
           name="twitter:description"
-          content="AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 042."
+          content="AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 240."
         />
         <meta
           name="twitter:image"
@@ -252,7 +252,7 @@ function Home() {
             "@type": "LocalBusiness",
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
-            telephone: "18001234042",
+            telephone: "18001234240",
             email: "babupaul2121@gmail.com",
             image: "https://customerserviceonline.co.in/images/hero-appliance-repair.jpg",
             description:
@@ -269,7 +269,7 @@ function Home() {
             },
             contactPoint: {
               "@type": "ContactPoint",
-              telephone: "18001234042",
+              telephone: "18001234240",
               contactType: "customer service",
               areaServed: "IN",
               availableLanguage: ["English"],
@@ -2386,7 +2386,7 @@ function Home() {
             <div className="home-hero-buttons">
 
               <a
-                href="tel:18001234042"
+                href="tel:18001234240"
                 className="home-button home-button-red"
               >
 
@@ -2394,7 +2394,7 @@ function Home() {
                   <path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
                 </svg>
 
-                Call 1800 1234 042
+                Call 1800 1234 240
 
               </a>
 
@@ -2719,7 +2719,7 @@ function Home() {
               <div className="home-about-actions">
 
                 <a
-                  href="tel:18001234042"
+                  href="tel:18001234240"
                   className="home-button home-button-red"
                 >
 
@@ -2727,7 +2727,7 @@ function Home() {
                     <path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
                   </svg>
 
-                  Call 1800 1234 042
+                  Call 1800 1234 240
 
                 </a>
 
@@ -2828,10 +2828,10 @@ function Home() {
 
 
                     <a
-                      href="tel:18001234042"
+                      href="tel:18001234240"
                       className="home-service-call"
                     >
-                      Call 1800 1234 042
+                      Call 1800 1234 240
                       <span>→</span>
                     </a>
 
@@ -2962,10 +2962,10 @@ function Home() {
 
 
             <a
-              href="tel:18001234042"
+              href="tel:18001234240"
               className="home-dark-call home-reveal home-delay-1"
             >
-              Call 1800 1234 042
+              Call 1800 1234 240
             </a>
 
           </div>
@@ -3081,10 +3081,10 @@ function Home() {
             <div className="home-final-buttons home-reveal home-delay-1">
 
               <a
-                href="tel:18001234042"
+                href="tel:18001234240"
                 className="home-final-button"
               >
-                Call 1800 1234 042
+                Call 1800 1234 240
               </a>
 
               <Link

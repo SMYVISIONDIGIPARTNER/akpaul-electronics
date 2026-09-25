@@ -574,11 +574,11 @@ function Footer() {
                   <span>Toll Free</span>
 
                   <a
-                    href="tel:18001234042"
+                    href="tel:18001234240"
                     className="ak-toll-free-number"
-                    aria-label="Call AK Paul Electronics toll free at 1800 1234 042"
+                    aria-label="Call AK Paul Electronics toll free at 1800 1234 240"
                   >
-                    1800 1234 042
+                    1800 1234 240
                   </a>
 
                 </div>

@@ -65,7 +65,7 @@ function Contact() {
         </title>
         <meta
           name="description"
-          content="Contact AK Paul Electronics for AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 042 or email babupaul2121@gmail.com."
+          content="Contact AK Paul Electronics for AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email babupaul2121@gmail.com."
         />
         <meta
           name="keywords"
@@ -86,7 +86,7 @@ function Contact() {
         />
         <meta
           property="og:description"
-          content="Contact AK Paul Electronics for appliance repair services in Kolkata. Toll Free: 1800 1234 042."
+          content="Contact AK Paul Electronics for appliance repair services in Kolkata. Toll Free: 1800 1234 240."
         />
         <meta
           property="og:url"
@@ -106,7 +106,7 @@ function Contact() {
         />
         <meta
           name="twitter:description"
-          content="AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 042."
+          content="AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 240."
         />
         <meta
           name="twitter:image"
@@ -119,7 +119,7 @@ function Contact() {
             "@type": "LocalBusiness",
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
-            telephone: "18001234042",
+            telephone: "18001234240",
             email: "babupaul2121@gmail.com",
             description:
               "AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata.",
@@ -135,7 +135,7 @@ function Contact() {
             },
             contactPoint: {
               "@type": "ContactPoint",
-              telephone: "18001234042",
+              telephone: "18001234240",
               contactType: "customer service",
               areaServed: "IN",
               availableLanguage: ["English"],
@@ -1361,7 +1361,7 @@ function Contact() {
                 {/* PHONE */}
 
                 <a
-                  href="tel:18001234042"
+                  href="tel:18001234240"
                   className="contact-info-card contact-reveal"
                 >
 
@@ -1380,7 +1380,7 @@ function Contact() {
                     </small>
 
                     <strong>
-                      1800 1234 042
+                      1800 1234 240
                     </strong>
 
                   </div>
@@ -1466,8 +1466,8 @@ function Contact() {
                     repair cost.
                   </p>
 
-                  <a href="tel:18001234042">
-                    Call 1800 1234 042 →
+                  <a href="tel:18001234240">
+                    Call 1800 1234 240 →
                   </a>
 
                 </div>
@@ -1857,10 +1857,10 @@ function Contact() {
             </div>
 
             <a
-              href="tel:18001234042"
+              href="tel:18001234240"
               className="contact-bottom-call contact-reveal contact-delay-1"
             >
-              Call 1800 1234 042
+              Call 1800 1234 240
             </a>
 
           </div>

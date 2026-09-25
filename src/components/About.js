@@ -131,7 +131,7 @@ function About() {
         <title>About AK Paul Electronics | Appliance Repair in Kolkata</title>
         <meta
           name="description"
-          content="Learn about AK Paul Electronics, providing AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 042 for appliance service and inspection."
+          content="Learn about AK Paul Electronics, providing AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 for appliance service and inspection."
         />
         <meta
           name="keywords"
@@ -149,7 +149,7 @@ function About() {
         <meta property="og:title" content="About AK Paul Electronics | Appliance Repair in Kolkata" />
         <meta
           property="og:description"
-          content="Professional household appliance repair services in Kolkata for ACs, refrigerators, washing machines and microwaves. Toll Free: 1800 1234 042."
+          content="Professional household appliance repair services in Kolkata for ACs, refrigerators, washing machines and microwaves. Toll Free: 1800 1234 240."
         />
         <meta property="og:url" content="https://customerserviceonline.co.in/about" />
         <meta property="og:image" content="https://customerserviceonline.co.in/images/about-technician.jpg" />
@@ -158,7 +158,7 @@ function About() {
         <meta name="twitter:title" content="About AK Paul Electronics | Appliance Repair in Kolkata" />
         <meta
           name="twitter:description"
-          content="Learn about AK Paul Electronics and our household appliance repair services in Kolkata. Toll Free: 1800 1234 042."
+          content="Learn about AK Paul Electronics and our household appliance repair services in Kolkata. Toll Free: 1800 1234 240."
         />
         <meta name="twitter:image" content="https://customerserviceonline.co.in/images/about-technician.jpg" />
 
@@ -169,7 +169,7 @@ function About() {
             "@id": "https://customerserviceonline.co.in/#business",
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
-            telephone: "18001234042",
+            telephone: "18001234240",
             email: "info@customerserviceonline.co.in",
             image: "https://customerserviceonline.co.in/images/about-technician.jpg",
             description:
@@ -1674,10 +1674,10 @@ function About() {
               <div className="about-actions">
 
                 <a
-                  href="tel:18001234042"
+                  href="tel:18001234240"
                   className="about-button about-button-red"
                 >
-                  Call Toll Free 1800 1234 042 →
+                  Call Toll Free 1800 1234 240 →
                 </a>
 
                 <Link
@@ -1942,10 +1942,10 @@ function About() {
             <div className="about-cta-buttons about-reveal about-delay-1">
 
               <a
-                href="tel:18001234042"
+                href="tel:18001234240"
                 className="about-cta-button"
               >
-                Call Toll Free 1800 1234 042
+                Call Toll Free 1800 1234 240
               </a>
 
               <Link

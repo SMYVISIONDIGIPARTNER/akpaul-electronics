@@ -149,7 +149,7 @@ function Services() {
     {
       number: "01",
       title: "Call Us",
-      text: "Call our toll-free number 1800 1234 042 and tell us about your appliance and the problem.",
+      text: "Call our toll-free number 1800 1234 240 and tell us about your appliance and the problem.",
     },
     {
       number: "02",
@@ -172,7 +172,7 @@ function Services() {
     <>
       <Helmet>
         <title>Appliance Repair Services in Kolkata | AK Paul Electronics</title>
-        <meta name="description" content="AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 042 or email babupaul2121@gmail.com." />
+        <meta name="description" content="AK Paul Electronics provides AC, refrigerator, washing machine and microwave repair services in Kolkata. Call toll free 1800 1234 240 or email babupaul2121@gmail.com." />
         <meta name="keywords" content="AC repair Kolkata, refrigerator repair Kolkata, fridge repair Kolkata, washing machine repair Kolkata, microwave repair Kolkata, appliance repair Kolkata, AK Paul Electronics" />
         <link rel="canonical" href="https://customerserviceonline.co.in/services" />
 
@@ -181,13 +181,13 @@ function Services() {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Appliance Repair Services in Kolkata | AK Paul Electronics" />
-        <meta property="og:description" content="Professional AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 042." />
+        <meta property="og:description" content="Professional AC, refrigerator, washing machine and microwave repair services in Kolkata. Toll Free: 1800 1234 240." />
         <meta property="og:url" content="https://customerserviceonline.co.in/services" />
         <meta property="og:site_name" content="AK Paul Electronics" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Appliance Repair Services in Kolkata | AK Paul Electronics" />
-        <meta name="twitter:description" content="Professional household appliance repair services in Kolkata. Toll Free: 1800 1234 042." />
+        <meta name="twitter:description" content="Professional household appliance repair services in Kolkata. Toll Free: 1800 1234 240." />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -195,7 +195,7 @@ function Services() {
             "@type": "LocalBusiness",
             name: "AK Paul Electronics",
             url: "https://customerserviceonline.co.in/",
-            telephone: "18001234042",
+            telephone: "18001234240",
             email: "babupaul2121@gmail.com",
             areaServed: { "@type": "City", name: "Kolkata" },
             address: {
@@ -1575,7 +1575,7 @@ function Services() {
             </div>
 
             <a
-              href="tel:18001234042"
+              href="tel:18001234240"
               className="services-intro-call services-reveal services-delay-1"
             >
 
@@ -1587,7 +1587,7 @@ function Services() {
 
               <span className="services-call-text">
                 <small>Call for Inspection</small>
-                <strong>1800 1234 042</strong>
+                <strong>1800 1234 240</strong>
               </span>
 
             </a>
@@ -1661,10 +1661,10 @@ function Services() {
                   <div className="services-item-buttons">
 
                     <a
-                      href="tel:18001234042"
+                      href="tel:18001234240"
                       className="services-button services-button-red"
                     >
-                      Call 1800 1234 042 →
+                      Call 1800 1234 240 →
                     </a>
 
                     <Link
@@ -1824,10 +1824,10 @@ function Services() {
             <div className="services-cta-buttons services-reveal services-delay-1">
 
               <a
-                href="tel:18001234042"
+                href="tel:18001234240"
                 className="services-cta-button"
               >
-                Call 1800 1234 042
+                Call 1800 1234 240
               </a>
 
               <Link

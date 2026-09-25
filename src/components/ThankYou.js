@@ -322,8 +322,8 @@ function ThankYou() {
           <div className="thank-you-contact">
             <small>Need immediate assistance?</small>
 
-            <a href="tel:18001234042">
-              Toll Free: 1800 1234 042
+            <a href="tel:18001234240">
+              Toll Free: 1800 1234 240
             </a>
           </div>
 
@@ -336,7 +336,7 @@ function ThankYou() {
             </Link>
 
             <a
-              href="tel:18001234042"
+              href="tel:18001234240"
               className="thank-you-call"
             >
               Call Now
