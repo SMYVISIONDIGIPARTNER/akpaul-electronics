@@ -342,10 +342,10 @@ function App() {
       ========================================== */}
 
       <a
-        href="tel:18001234240"
+        href="tel:18001234042"
         className="floating-call-button"
-        aria-label="Call AK Paul Electronics toll free at 1800 1234 240"
-        title="Toll Free: 1800 1234 240"
+        aria-label="Call AK Paul Electronics toll free at 1800 1234 042"
+        title="Toll Free: 1800 1234 042"
       >
         <span className="floating-call-pulse"></span>
 
@@ -360,7 +360,7 @@ function App() {
 
         <span className="floating-call-text">
           <small>Toll Free</small>
-          <strong>1800 1234 240</strong>
+          <strong>1800 1234 042</strong>
         </span>
       </a>
     </>

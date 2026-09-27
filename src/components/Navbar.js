@@ -729,9 +729,9 @@ function Navbar() {
             {/* TOLL FREE NUMBER */}
 
             <a
-              href="tel:18001234240"
+              href="tel:18001234042"
               className="paul-phone"
-              aria-label="Call toll free number 1800 1234 240"
+              aria-label="Call toll free number 1800 1234 042"
             >
 
               <span className="paul-phone-icon">
@@ -752,7 +752,7 @@ function Navbar() {
                 </small>
 
                 <span className="paul-phone-number">
-                  1800 1234 240
+                  1800 1234 042
                 </span>
 
               </span>
@@ -879,9 +879,9 @@ function Navbar() {
           {/* MOBILE TOLL FREE NUMBER */}
 
           <a
-            href="tel:18001234240"
+            href="tel:18001234042"
             className="paul-mobile-phone"
-            aria-label="Call toll free number 1800 1234 240"
+            aria-label="Call toll free number 1800 1234 042"
           >
 
             <svg
@@ -898,7 +898,7 @@ function Navbar() {
               </small>
 
               <span className="paul-mobile-phone-number">
-                1800 1234 240
+                1800 1234 042
               </span>
 
             </span>
