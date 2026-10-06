@@ -287,7 +287,7 @@ function Home() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://customerserviceonline.co.in/"
+                  value="https://customerserviceonline.co.in/thank-you.html"
                 />
 
                 <input
