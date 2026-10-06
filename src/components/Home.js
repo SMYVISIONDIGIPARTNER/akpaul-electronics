@@ -287,7 +287,7 @@ function Home() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://customerserviceonline.co.in/thank-you.html"
+                  value="https://customerserviceonline.co.in/thank-you"
                 />
 
                 <input
@@ -1012,7 +1012,7 @@ function Home() {
             <input
               type="hidden"
               name="_next"
-              value="https://customerserviceonline.co.in/thank-you.html"
+              value="https://customerserviceonline.co.in/thank-you"
             />
 
             <div className="contact-form-heading">
